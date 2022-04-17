@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>SearchEmployeeController</servlet-name>
+  	<display-name>SearchEmployeeController</display-name>
+  	<description>직원 정보를 찾는 comtroller</description>
+  	<servlet-class>com.test.demo.SearchEmployeeController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SearchEmployeeController</servlet-name>
+  	<url-pattern>/searchEmployee</url-pattern>
+  </servlet-mapping>
 </web-app>
