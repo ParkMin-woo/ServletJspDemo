@@ -10,8 +10,18 @@
   	<description>직원 정보를 찾는 comtroller</description>
   	<servlet-class>com.test.demo.SearchEmployeeController</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>FileUploadController</servlet-name>
+  	<display-name>FileUploadController</display-name>
+  	<description></description>
+  	<servlet-class>com.test.demo.FileUploadController</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>SearchEmployeeController</servlet-name>
   	<url-pattern>/searchEmployee</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>FileUploadController</servlet-name>
+  	<url-pattern>/uploadFile</url-pattern>
   </servlet-mapping>
 </web-app>
